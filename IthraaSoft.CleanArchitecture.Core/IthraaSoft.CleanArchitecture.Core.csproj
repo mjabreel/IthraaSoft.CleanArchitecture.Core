@@ -18,4 +18,10 @@
 		<RootNamespace>IthraaSoft.CleanArchitecture.Core</RootNamespace>	  
   </PropertyGroup>
 
+	<ItemGroup>
+		<PackageReference Include="MediatR" Version="12.3.0" />
+		<PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="8.0.1" />
+		<PackageReference Include="System.ComponentModel.Annotations" Version="5.0.0" />
+	</ItemGroup>
+
 </Project>

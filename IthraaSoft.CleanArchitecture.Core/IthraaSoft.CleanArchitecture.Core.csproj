@@ -3,9 +3,13 @@
 	<PropertyGroup>
 		<TargetFramework>netstandard2.0</TargetFramework>
 		<LangVersion>latest</LangVersion>
+		<Nullable>enable</Nullable>
+		
+		<!-- Others -->
 		<PackageId>IthraaSoft.CleanArchitecture.Core</PackageId>
 		<Version>1.0.0</Version>
 		<Authors>Mohammed Jabreel</Authors>
+		<Description>Some useful base classes, mainly used with the CleanArchitecture template.</Description>
 		<AssemblyName>IthraaSoft.CleanArchitecture.Core</AssemblyName>
 		<ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
